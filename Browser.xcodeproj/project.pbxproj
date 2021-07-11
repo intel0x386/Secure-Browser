@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E740539268CC49000119031 /* PageViewControllerExtensionWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E740538268CC49000119031 /* PageViewControllerExtensionWebView.swift */; };
+		5E74053B268CCAB000119031 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74053A268CCAB000119031 /* BrowserViewController.swift */; };
+		5E74053D268CCFFE00119031 /* BrowserPagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74053C268CCFFE00119031 /* BrowserPagesData.swift */; };
+		5E74053F268CE3A900119031 /* BrowserPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74053E268CE3A900119031 /* BrowserPageCell.swift */; };
+		5E740541268CEECF00119031 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E740540268CEECF00119031 /* PopAnimation.swift */; };
+		5E97F42B268EBAC700E6FFF5 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97F42A268EBAC700E6FFF5 /* CloseButtonView.swift */; };
 		5EC3F91E268ADCAA002FF7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F91D268ADCAA002FF7CE /* AppDelegate.swift */; };
 		5EC3F920268ADCAA002FF7CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F91F268ADCAA002FF7CE /* SceneDelegate.swift */; };
-		5EC3F922268ADCAA002FF7CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F921268ADCAA002FF7CE /* ViewController.swift */; };
+		5EC3F922268ADCAA002FF7CE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F921268ADCAA002FF7CE /* PageViewController.swift */; };
 		5EC3F925268ADCAA002FF7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3F923268ADCAA002FF7CE /* Main.storyboard */; };
 		5EC3F927268ADCAF002FF7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3F926268ADCAF002FF7CE /* Assets.xcassets */; };
 		5EC3F92A268ADCAF002FF7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3F928268ADCAF002FF7CE /* LaunchScreen.storyboard */; };
+		5EC3F932268C86D6002FF7CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F931268C86D6002FF7CE /* Constants.swift */; };
+		5EC3F937268C8842002FF7CE /* WebBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3F936268C8842002FF7CE /* WebBrowser.swift */; };
+		5ED3D0BD2697415B0041676C /* BrowserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3D0BC2697415B0041676C /* BrowserCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E740538268CC49000119031 /* PageViewControllerExtensionWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewControllerExtensionWebView.swift; sourceTree = "<group>"; };
+		5E74053A268CCAB000119031 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		5E74053C268CCFFE00119031 /* BrowserPagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserPagesData.swift; sourceTree = "<group>"; };
+		5E74053E268CE3A900119031 /* BrowserPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserPageCell.swift; sourceTree = "<group>"; };
+		5E740540268CEECF00119031 /* PopAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimation.swift; sourceTree = "<group>"; };
+		5E97F42A268EBAC700E6FFF5 /* CloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonView.swift; sourceTree = "<group>"; };
 		5EC3F91A268ADCAA002FF7CE /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC3F91D268ADCAA002FF7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC3F91F268ADCAA002FF7CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EC3F921268ADCAA002FF7CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EC3F921268ADCAA002FF7CE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5EC3F924268ADCAA002FF7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC3F926268ADCAF002FF7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC3F929268ADCAF002FF7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC3F92B268ADCAF002FF7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC3F931268C86D6002FF7CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5EC3F936268C8842002FF7CE /* WebBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowser.swift; sourceTree = "<group>"; };
+		5ED3D0BC2697415B0041676C /* BrowserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		5EC3F91C268ADCAA002FF7CE /* Browser */ = {
 			isa = PBXGroup;
 			children = (
+				5EC3F935268C87D2002FF7CE /* Model */,
+				5EC3F934268C86E7002FF7CE /* View */,
+				5EC3F933268C86DA002FF7CE /* App */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		5EC3F933268C86DA002FF7CE /* App */ = {
+			isa = PBXGroup;
+			children = (
 				5EC3F91D268ADCAA002FF7CE /* AppDelegate.swift */,
 				5EC3F91F268ADCAA002FF7CE /* SceneDelegate.swift */,
-				5EC3F921268ADCAA002FF7CE /* ViewController.swift */,
-				5EC3F923268ADCAA002FF7CE /* Main.storyboard */,
 				5EC3F926268ADCAF002FF7CE /* Assets.xcassets */,
 				5EC3F928268ADCAF002FF7CE /* LaunchScreen.storyboard */,
 				5EC3F92B268ADCAF002FF7CE /* Info.plist */,
 			);
-			path = Browser;
+			path = App;
+			sourceTree = "<group>";
+		};
+		5EC3F934268C86E7002FF7CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3F921268ADCAA002FF7CE /* PageViewController.swift */,
+				5E740538268CC49000119031 /* PageViewControllerExtensionWebView.swift */,
+				5E74053A268CCAB000119031 /* BrowserViewController.swift */,
+				5E74053E268CE3A900119031 /* BrowserPageCell.swift */,
+				5E740540268CEECF00119031 /* PopAnimation.swift */,
+				5EC3F923268ADCAA002FF7CE /* Main.storyboard */,
+				5E97F42A268EBAC700E6FFF5 /* CloseButtonView.swift */,
+				5ED3D0BC2697415B0041676C /* BrowserCollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EC3F935268C87D2002FF7CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3F931268C86D6002FF7CE /* Constants.swift */,
+				5EC3F936268C8842002FF7CE /* WebBrowser.swift */,
+				5E74053C268CCFFE00119031 /* BrowserPagesData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +188,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC3F922268ADCAA002FF7CE /* ViewController.swift in Sources */,
+				5EC3F922268ADCAA002FF7CE /* PageViewController.swift in Sources */,
+				5E74053B268CCAB000119031 /* BrowserViewController.swift in Sources */,
 				5EC3F91E268ADCAA002FF7CE /* AppDelegate.swift in Sources */,
+				5E74053F268CE3A900119031 /* BrowserPageCell.swift in Sources */,
+				5E97F42B268EBAC700E6FFF5 /* CloseButtonView.swift in Sources */,
+				5E740539268CC49000119031 /* PageViewControllerExtensionWebView.swift in Sources */,
 				5EC3F920268ADCAA002FF7CE /* SceneDelegate.swift in Sources */,
+				5E740541268CEECF00119031 /* PopAnimation.swift in Sources */,
+				5EC3F937268C8842002FF7CE /* WebBrowser.swift in Sources */,
+				5EC3F932268C86D6002FF7CE /* Constants.swift in Sources */,
+				5E74053D268CCFFE00119031 /* BrowserPagesData.swift in Sources */,
+				5ED3D0BD2697415B0041676C /* BrowserCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,15 +348,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGLVH5X59M;
-				INFOPLIST_FILE = Browser/Info.plist;
+				INFOPLIST_FILE = Browser/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shah.ankit2013.Word-Scrambler.Browser";
+				PRODUCT_BUNDLE_IDENTIFIER = shah.ankit2013.BrowserPrivacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,15 +367,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGLVH5X59M;
-				INFOPLIST_FILE = Browser/Info.plist;
+				INFOPLIST_FILE = Browser/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shah.ankit2013.Word-Scrambler.Browser";
+				PRODUCT_BUNDLE_IDENTIFIER = shah.ankit2013.BrowserPrivacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
